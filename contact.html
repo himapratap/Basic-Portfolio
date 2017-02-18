@@ -5,43 +5,70 @@
     <title>Hima-Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 </head>
 
-<body>
-    <header>
-        <div class="top">
-            <div class="header-left"> Hima Unnithan </div>
+<body class="page-wrap">
+    <div class="nav">
+        <header>
+            <h1 class="nav-header"> Hima Unnithan </h1>
             <div class="header-right">
-                <a href="index.html">About </a>
-                <a href="portfolio.html">Portfolio </a>
-                <a href="contact.html" class="contact">Contact </a>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="contact"><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
-        </div>
-    </header>
-    <div class="main">
-        <form class = "main-left">
-            <h2>Contact</h2>
-            <p>Name</p>
-            <input type="text" name="fname" placeholder="Will Smith">
-            <br>
-            <p>Email</p>
-            <input type="text" name="fname" placeholder="abc@gmail.com">
-            <br>
-            <p>Message</p>
-            <textarea rows="4" cols="20"></textarea>
-            <br>
-            <input type="submit" value="Submit">
-            <br>
-        </form>
+        </header>
+    </div>
+    <!--  <form class="navbar-form navbar-left" role="search">
+       <div class="form-group">
+           <p>Name</p>
+           <input type="text" class="form-control" placeholder="Search"> </br>
+           <p>Email</p>
+           <input type="text" class="form-control" placeholder="abc@gmail.com">
+           <br>
+           <p>Message</p>
+           <textarea class="form-control" rows="5" id="comment"></textarea>
+           <br>
+           <button class="btn btn-success" type="submit" >Submit</button>
+       </div>
+   </form> -->
+    <div class="main clear">
+        <section class="main-left">
+            <h1 class="main-header">Contact</h1>
+            <div class="main-content clear">
+                <form class="clear">
+                    <p>Name</p>
+                    <input type="text" name="fname" placeholder="Will Smith">
+                    <br>
+                    <p>Email</p>
+                    <input type="text" name="fname" placeholder="abc@gmail.com">
+                    <br>
+                    <p>Message</p>
+                    <textarea rows="8" cols="78"></textarea>
+                    <br>
+                    <input type="submit" value="Submit" class="submit">
+                    <br>
+                </form>
+            </div>
+        </section>
         <aside>
             <h2>Connect with Me</h2>
-            <img src="assets/images/GitHub-Mark.png" height="50px" width="50px">
-            <img src="assets/images/linkedin-512.png" height="50px" width="50px">
-            <img src="assets/images/stackoverflow.png" height="50px" width="50px">
+            <div class="links">
+                <ul>
+                    <li class="close"> <img src="assets/images/stackoverflow.png" class="link">
+                    </li>
+                    <li class="close"> <img src="assets/images/GitHub-Mark.png" class="link">
+                    </li>
+                    <li class="close"> <img src="assets/images/linkedin-512.png" class="link">
+                    </li>
+                </ul>
+            </div>
         </aside>
     </div>
     <footer>
-        Copyright 2017 Hima Unnithan
+        &copy;Copyright 2017 Hima Unnithan
     </footer>
 </body>
 
